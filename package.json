@@ -1,0 +1,30 @@
+{
+  "name": "apinodedocker",
+  "version": "1.0.0",
+  "description": "Teste Node JS com docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "Node",
+    "Docker",
+    "API",
+    "Express",
+    "Mongo",
+    "Mongoose"
+  ],
+  "author": "Victor Vieira",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.6",
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
+  }
+}
